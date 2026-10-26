@@ -245,10 +245,10 @@ getgenv().Config.SelectMaterial = MaterialList[1] or "Leather"
 
 local function getConfigMaterial(mat)
     if World1 then
-        if mat == "Magma Ore" then MaterialMon, MaterialPos = {"Military Spy"}, CFrame.new(-5850.28, 77.28, 8848.67)
-        elseif mat == "Angel Wings" then MaterialMon, MaterialPos = {"Royal Soldier"}, CFrame.new(-7827.15, 5606.91, -1705.58)
-        elseif mat == "Leather" then MaterialMon, MaterialPos = {"Pirate"}, CFrame.new(-1211.87, 4.78, 3916.83)
-        elseif mat == "Scrap Metal" then MaterialMon, MaterialPos = {"Brute"}, CFrame.new(-1132.42, 14.84, 4293.3) end
+        if mat == "Magma Ore" then MaterialMon, MaterialPos = {"Military Spy"}, CFrame.new(-5799.3359, 76.9038, 8937.9902)
+        elseif mat == "Angel Wings" then MaterialMon, MaterialPos = {"Royal Soldier"}, CFrame.new(-6999.7354, 5536.7578, 958.356)
+        elseif mat == "Leather" then MaterialMon, MaterialPos = {"Pirate"}, CFrame.new(-1121.7891, 24.853, 3984.0381)
+        elseif mat == "Scrap Metal" then MaterialMon, MaterialPos = {"Brute"}, CFrame.new(-1206.7703, 56.267, 4455.9414) end
     elseif World2 then
         if mat == "Radioactive" then MaterialMon, MaterialPos = {"Factory Staff"}, CFrame.new(-507.78, 73, -126.45)
         elseif mat == "Mystic Droplet" then MaterialMon, MaterialPos = {"Water Fighter"}, CFrame.new(-3352.9, 285.01, -10534.84)
